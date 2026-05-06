@@ -1,0 +1,185 @@
+:root {
+  --bg: #f5f3ee;
+  --bg-2: #ffffff;
+  --text: #151515;
+  --muted: #67645f;
+  --line: rgba(20,20,20,.12);
+  --card: rgba(255,255,255,.72);
+  --accent: #a36bff;
+  --accent-2: #ffb86b;
+  --shadow: 0 24px 80px rgba(15, 15, 20, .12);
+  --radius: 28px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0a0b10;
+  --bg-2: #11131c;
+  --text: #f7f4ee;
+  --muted: #aaa7b7;
+  --line: rgba(255,255,255,.14);
+  --card: rgba(255,255,255,.08);
+  --shadow: 0 24px 90px rgba(0,0,0,.45);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+.page-shell { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+
+/* UI Components */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  backdrop-filter: blur(18px);
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+.topbar__inner { min-height: 74px; display: flex; align-items: center; justify-content: space-between; }
+.logo { display:flex; align-items:center; gap:10px; font-weight:900; text-decoration: none; color: inherit; }
+.logo span:first-child {
+  width:38px; height:38px; border-radius:12px;
+  display:grid; place-items:center;
+  color:#fff; background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+.nav { display:flex; gap:18px; color:var(--muted); font-size:14px; }
+.nav a { text-decoration: none; color: inherit; font-weight: 500; }
+.theme-btn {
+  border:1px solid var(--line); background:var(--card); border-radius:999px;
+  padding:10px 14px; cursor:pointer; color: var(--text);
+}
+
+.intro { padding: 80px 0 40px; }
+.kicker {
+  border:1px solid var(--line); background:var(--card); border-radius:999px;
+  padding:6px 14px; color:var(--muted); font-size:13px; font-weight:700;
+}
+h1 { font-size: clamp(32px, 6vw, 64px); line-height: 1.1; margin: 20px 0; }
+.intro p { color: var(--muted); font-size: 18px; max-width: 600px; }
+
+.grid { display: grid; gap: 40px; padding-bottom: 100px; }
+.block {
+  border-radius: var(--radius); border: 1px solid var(--line);
+  background: var(--card); overflow: hidden; box-shadow: var(--shadow);
+}
+.block__label {
+  padding: 12px 20px; border-bottom: 1px solid var(--line);
+  display: flex; justify-content: space-between; font-size: 12px;
+  font-weight: 800; text-transform: uppercase; color: var(--muted);
+}
+.demo { padding: 40px; }
+
+/* --- FAQ STYLES --- */
+
+/* 01: Classic Accordion */
+.faq-accordion { display: flex; flex-direction: column; gap: 12px; }
+.faq-item { border: 1px solid var(--line); border-radius: 16px; background: var(--bg-2); overflow: hidden; }
+.faq-trigger {
+  width: 100%; padding: 20px 24px; display: flex; justify-content: space-between; align-items: center;
+  background: none; border: none; font-size: 17px; font-weight: 600; text-align: left; cursor: pointer; color: var(--text);
+}
+.faq-icon {
+  width: 24px; height: 24px; position: relative;
+  transition: transform .3s ease;
+}
+.faq-icon::before, .faq-icon::after {
+  content: ''; position: absolute; background: currentColor; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+.faq-icon::before { width: 14px; height: 2px; }
+.faq-icon::after { width: 2px; height: 14px; }
+.faq-item.active .faq-icon { transform: rotate(45deg); }
+.faq-content { max-height: 0; overflow: hidden; transition: max-height .3s ease, padding .3s ease; padding: 0 24px; color: var(--muted); line-height: 1.6; }
+.faq-item.active .faq-content { max-height: 200px; padding-bottom: 20px; }
+
+/* 02: Bento FAQ */
+.faq-bento { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+.faq-b-card { padding: 24px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 20px; }
+.faq-b-card.main { grid-row: span 2; background: var(--accent); color: #fff; }
+.faq-b-card.main p { color: rgba(255,255,255,0.8); }
+.faq-b-card h3 { margin: 0 0 10px; font-size: 18px; }
+.faq-b-card p { margin: 0; font-size: 14px; color: var(--muted); }
+
+/* 03: Minimalist List */
+.faq-minimal { display: flex; flex-direction: column; gap: 30px; }
+.faq-m-item h4 { margin: 0 0 10px; font-size: 20px; }
+.faq-m-item p { margin: 0; color: var(--muted); font-size: 16px; border-left: 3px solid var(--accent); padding-left: 20px; }
+
+/* 04: Two Column Grid */
+.faq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+.faq-g-item h5 { margin: 0 0 10px; font-size: 18px; color: var(--accent); }
+.faq-g-item p { margin: 0; color: var(--muted); font-size: 15px; }
+
+/* 05: Glassmorphic FAQ */
+.faq-glass { display: flex; flex-direction: column; gap: 20px; }
+.faq-g-card {
+  background: rgba(255,255,255,0.1); backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; padding: 20px; color: #fff;
+}
+.faq-g-header { font-weight: 700; font-size: 18px; margin-bottom: 8px; }
+.faq-g-body { opacity: 0.8; font-size: 15px; }
+
+/* 06: Search UI */
+.faq-search-ui { text-align: center; }
+.search-box { display: flex; gap: 10px; max-width: 500px; margin: 0 auto 20px; }
+.search-box input {
+  flex: 1; padding: 12px 20px; border-radius: 99px; border: 1px solid var(--line);
+  background: var(--bg-2); color: var(--text);
+}
+.search-box button {
+  padding: 0 24px; border-radius: 99px; border: none; background: var(--accent); color: #fff; font-weight: 600; cursor: pointer;
+}
+.quick-tags { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.quick-tags span {
+  padding: 6px 14px; border-radius: 99px; border: 1px solid var(--line); font-size: 12px; font-weight: 600; cursor: pointer; transition: .2s;
+}
+.quick-tags span:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* 07: Bordered Clean */
+.faq-bordered { display: flex; flex-direction: column; }
+.faq-br-item { padding: 24px 0; border-bottom: 1px solid var(--line); }
+.faq-br-item:last-child { border-bottom: none; }
+.faq-br-q { font-weight: 700; font-size: 18px; margin-bottom: 10px; }
+.faq-br-a { color: var(--muted); line-height: 1.6; }
+
+/* 08: Sidebar FAQ */
+.faq-sidebar-layout { display: flex; gap: 40px; }
+.faq-aside { width: 200px; }
+.faq-aside nav { display: flex; flex-direction: column; gap: 10px; }
+.faq-aside a {
+  text-decoration: none; color: var(--muted); font-weight: 600; font-size: 15px;
+  padding: 10px 15px; border-radius: 10px; transition: .2s;
+}
+.faq-aside a.active, .faq-aside a:hover { background: var(--line); color: var(--text); }
+.faq-main-content h3 { margin: 0 0 10px; }
+
+/* 09: Boxed with Icons */
+.faq-icons-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.faq-i-box { padding: 30px; border-radius: 24px; background: var(--bg-2); border: 1px solid var(--line); }
+.faq-i-icon { font-size: 32px; margin-bottom: 15px; }
+.faq-i-box h4 { margin: 0 0 10px; font-size: 20px; }
+.faq-i-box p { margin: 0; color: var(--muted); }
+
+/* 10: Steps */
+.faq-steps { display: flex; flex-direction: column; gap: 30px; }
+.faq-step { display: flex; gap: 20px; align-items: flex-start; }
+.step-num {
+  width: 40px; height: 40px; border-radius: 50%; background: var(--accent); color: #fff;
+  display: grid; place-items: center; font-weight: 800; font-size: 14px; flex-shrink: 0;
+}
+.faq-step h5 { margin: 0 0 5px; font-size: 18px; }
+.faq-step p { margin: 0; color: var(--muted); }
+
+@media (max-width: 768px) {
+  .faq-bento, .faq-grid, .faq-icons-grid { grid-template-columns: 1fr; }
+  .faq-sidebar-layout { flex-direction: column; }
+  .faq-aside { width: 100%; }
+  .faq-aside nav { flex-direction: row; overflow-x: auto; }
+}
+
+.reveal { opacity: 0; transform: translateY(20px); transition: .6s ease-out; }
+.reveal.active { opacity: 1; transform: translateY(0); }
+
+.gallery-footer { padding: 60px 0; text-align: center; color: var(--muted); border-top: 1px solid var(--line); margin-top: 60px; }
