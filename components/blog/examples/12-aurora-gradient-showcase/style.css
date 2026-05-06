@@ -1,0 +1,163 @@
+:root {
+  --bg: #f5f3ee;
+  --bg-2: #ffffff;
+  --text: #151515;
+  --muted: #67645f;
+  --line: rgba(20,20,20,.12);
+  --card: rgba(255,255,255,.72);
+  --accent: #a36bff;
+  --accent-2: #ffb86b;
+  --shadow: 0 24px 80px rgba(15, 15, 20, .12);
+  --radius: 28px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0a0b10;
+  --bg-2: #11131c;
+  --text: #f7f4ee;
+  --muted: #aaa7b7;
+  --line: rgba(255,255,255,.14);
+  --card: rgba(255,255,255,.08);
+  --shadow: 0 24px 90px rgba(0,0,0,.45);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+.page-shell { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+
+/* UI Components */
+.topbar {
+  position: sticky; top: 0; z-index: 50;
+  backdrop-filter: blur(18px);
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  border-bottom: 1px solid var(--line);
+}
+.topbar__inner { min-height: 74px; display: flex; align-items: center; justify-content: space-between; }
+.logo { display:flex; align-items:center; gap:10px; font-weight:900; text-decoration: none; color: inherit; }
+.logo span:first-child {
+  width:38px; height:38px; border-radius:12px;
+  display:grid; place-items:center;
+  color:#fff; background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+.nav { display:flex; gap:18px; color:var(--muted); font-size:14px; }
+.nav a { text-decoration: none; color: inherit; font-weight: 500; }
+.theme-btn {
+  border:1px solid var(--line); background:var(--card); border-radius:999px;
+  padding:10px 14px; cursor:pointer; color: var(--text);
+}
+
+.intro { padding: 80px 0 40px; }
+.kicker {
+  border:1px solid var(--line); background:var(--card); border-radius:999px;
+  padding:6px 14px; color:var(--muted); font-size:13px; font-weight:700;
+}
+h1 { font-size: clamp(32px, 6vw, 64px); line-height: 1.1; margin: 20px 0; }
+.intro p { color: var(--muted); font-size: 18px; max-width: 600px; }
+
+.grid { display: grid; gap: 40px; padding-bottom: 100px; }
+.block {
+  border-radius: var(--radius); border: 1px solid var(--line);
+  background: var(--card); overflow: hidden; box-shadow: var(--shadow);
+}
+.block__label {
+  padding: 12px 20px; border-bottom: 1px solid var(--line);
+  display: flex; justify-content: space-between; font-size: 12px;
+  font-weight: 800; text-transform: uppercase; color: var(--muted);
+}
+.demo { padding: 40px; }
+
+/* --- BLOG STYLES --- */
+
+/* 01: Standard Grid */
+.blog-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+.blog-card { background: var(--bg-2); border-radius: 20px; overflow: hidden; border: 1px solid var(--line); transition: .3s; }
+.blog-card:hover { transform: translateY(-5px); box-shadow: var(--shadow); }
+.blog-img img { width: 100%; height: 240px; object-fit: cover; display: block; }
+.blog-content { padding: 25px; }
+.category { font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; display: block; }
+.blog-content h4 { margin: 0 0 10px; font-size: 20px; }
+.blog-content p { margin: 0 0 20px; color: var(--muted); font-size: 15px; }
+.read-more { font-weight: 700; text-decoration: none; color: var(--text); font-size: 14px; }
+
+/* 02: Bento Blog */
+.blog-bento { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 300px; gap: 15px; }
+.blog-b-card { border-radius: 24px; overflow: hidden; position: relative; background: var(--bg-2); border: 1px solid var(--line); }
+.blog-b-card.main { grid-column: span 2; }
+.blog-b-card.main img { width: 100%; height: 100%; object-fit: cover; }
+.blog-b-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.8), transparent); padding: 30px; display: flex; flex-direction: column; justify-content: flex-end; color: #fff; }
+.badge { background: var(--accent); padding: 4px 12px; border-radius: 99px; font-size: 11px; font-weight: 800; width: fit-content; margin-bottom: 10px; }
+.blog-b-content { padding: 25px; }
+
+/* 03: Minimal List */
+.blog-list { display: flex; flex-direction: column; }
+.blog-l-item { display: flex; align-items: center; gap: 30px; padding: 25px 0; border-bottom: 1px solid var(--line); }
+.blog-l-item:last-child { border-bottom: none; }
+.blog-l-item .date { font-size: 13px; color: var(--muted); font-weight: 600; min-width: 100px; }
+.l-info { flex: 1; }
+.l-info h4 { margin: 0 0 5px; font-size: 18px; transition: .2s; }
+.blog-l-item:hover h4 { color: var(--accent); }
+.l-info p { margin: 0; color: var(--muted); font-size: 14px; }
+.arrow { font-size: 24px; text-decoration: none; color: var(--line); }
+
+/* 04: Featured */
+.blog-featured { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
+.feat-img img { width: 100%; border-radius: 24px; display: block; }
+.feat-info h2 { font-size: 32px; margin: 15px 0; line-height: 1.2; }
+.author { display: flex; align-items: center; gap: 12px; margin-top: 25px; }
+.author img { width: 40px; height: 40px; border-radius: 50%; }
+.author span { font-weight: 600; font-size: 14px; }
+
+/* 05: Glass Cards */
+.blog-glass { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.blog-g-card { padding: 30px; background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 24px; color: #fff; }
+.g-date { font-weight: 800; color: var(--accent-2); font-size: 12px; display: block; margin-bottom: 10px; }
+
+/* 06: Brutalist */
+.blog-br-card { background: #fff; border: 4px solid #fff; box-shadow: 12px 12px 0 var(--accent-2); }
+.br-header { background: #000; color: #fff; padding: 10px 20px; font-weight: 900; }
+.br-body { padding: 30px; color: #000; }
+.br-body h3 { font-size: 28px; font-weight: 900; margin: 0 0 10px; }
+.br-body a { font-weight: 900; color: #000; text-decoration: none; border-bottom: 3px solid #000; }
+
+/* 07: Masonry */
+.blog-masonry { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+.masonry-item { position: relative; border-radius: 20px; overflow: hidden; }
+.masonry-item img { width: 100%; display: block; transition: .5s; }
+.masonry-item h4 { position: absolute; bottom: 20px; left: 20px; color: #fff; margin: 0; z-index: 1; }
+.masonry-item:hover img { transform: scale(1.1); }
+
+/* 08: Scroller */
+.blog-scroll { display: flex; gap: 20px; overflow-x: auto; padding-bottom: 20px; scrollbar-width: none; }
+.scroll-card { min-width: 250px; padding: 30px; background: var(--bg-2); border: 1px solid var(--line); border-radius: 24px; }
+
+/* 09: Image Grid */
+.blog-img-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.img-box { position: relative; border-radius: 12px; overflow: hidden; cursor: pointer; }
+.img-box img { width: 100%; height: 200px; object-fit: cover; display: block; }
+.img-box .overlay { position: absolute; inset: 0; background: rgba(163, 107, 255, 0.8); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 800; opacity: 0; transition: .3s; }
+.img-box:hover .overlay { opacity: 1; }
+
+/* 10: Expand */
+.blog-expand { display: flex; gap: 15px; height: 300px; }
+.expand-item { flex: 1; position: relative; border-radius: 24px; overflow: hidden; transition: flex .5s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; }
+.expand-item.active { flex: 3; }
+.expand-bg { position: absolute; inset: 0; background-size: cover; background-position: center; transition: .5s; }
+.expand-item h3 { position: absolute; bottom: 20px; left: 20px; color: #fff; margin: 0; white-space: nowrap; }
+
+@media (max-width: 768px) {
+  .blog-grid, .blog-bento, .blog-featured, .blog-glass, .blog-masonry, .blog-img-grid { grid-template-columns: 1fr; }
+  .blog-bento { grid-template-rows: auto; }
+  .blog-expand { flex-direction: column; height: auto; }
+  .expand-item { height: 150px; }
+}
+
+.reveal { opacity: 0; transform: translateY(20px); transition: .6s ease-out; }
+.reveal.active { opacity: 1; transform: translateY(0); }
+
+.gallery-footer { padding: 60px 0; text-align: center; color: var(--muted); border-top: 1px solid var(--line); margin-top: 60px; }
