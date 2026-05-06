@@ -52,56 +52,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Hover Expand",
         "slug": "10-hover-expand",
         "path": "components/blog/examples/10-hover-expand/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/blog/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/blog/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/blog/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/blog/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/blog/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/blog/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/blog/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/blog/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/blog/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/blog/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -173,56 +123,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Blog preview cards",
         "slug": "13-blog-preview-cards",
         "path": "components/cards/examples/13-blog-preview-cards/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/cards/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/cards/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/cards/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/cards/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/cards/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/cards/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/cards/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/cards/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/cards/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/cards/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -294,56 +194,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Partner badges",
         "slug": "13-partner-badges",
         "path": "components/clients/examples/13-partner-badges/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/clients/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/clients/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/clients/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/clients/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/clients/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/clients/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/clients/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/clients/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/clients/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/clients/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -450,56 +300,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Deep Blue Ivory",
         "slug": "20-deep-blue-ivory",
         "path": "components/colors/examples/20-deep-blue-ivory/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/colors/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/colors/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/colors/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/colors/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/colors/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/colors/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/colors/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/colors/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/colors/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/colors/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -556,56 +356,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Departmental Hub",
         "slug": "10-departmental-hub",
         "path": "components/contacts/examples/10-departmental-hub/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/contacts/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/contacts/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/contacts/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/contacts/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/contacts/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/contacts/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/contacts/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/contacts/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/contacts/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/contacts/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -677,56 +427,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Community CTA",
         "slug": "13-community-cta",
         "path": "components/cta-sections/examples/13-community-cta/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/cta-sections/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/cta-sections/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/cta-sections/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/cta-sections/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/cta-sections/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/cta-sections/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/cta-sections/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/cta-sections/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/cta-sections/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/cta-sections/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -783,56 +483,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Glass Modal Error",
         "slug": "10-glass-modal-error",
         "path": "components/error-pages/examples/10-glass-modal-error/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/error-pages/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/error-pages/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/error-pages/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/error-pages/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/error-pages/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/error-pages/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/error-pages/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/error-pages/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/error-pages/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/error-pages/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -889,56 +539,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Step-by-Step Guide",
         "slug": "10-step-by-step-guide",
         "path": "components/faq/examples/10-step-by-step-guide/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/faq/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/faq/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/faq/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/faq/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/faq/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/faq/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/faq/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/faq/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/faq/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/faq/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1010,56 +610,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Media features",
         "slug": "13-media-features",
         "path": "components/features/examples/13-media-features/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/features/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/features/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/features/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/features/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/features/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/features/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/features/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/features/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/features/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/features/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1131,56 +681,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Centered footer",
         "slug": "13-centered-footer",
         "path": "components/footers/examples/13-centered-footer/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/footers/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/footers/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/footers/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/footers/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/footers/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/footers/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/footers/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/footers/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/footers/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/footers/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1237,56 +737,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Toggle Selectors",
         "slug": "10-toggle-selectors",
         "path": "components/forms/examples/10-toggle-selectors/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/forms/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/forms/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/forms/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/forms/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/forms/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/forms/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/forms/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/forms/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/forms/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/forms/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1343,56 +793,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Immersive Showcase",
         "slug": "10-immersive-showcase",
         "path": "components/gallery/examples/10-immersive-showcase/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/gallery/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/gallery/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/gallery/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/gallery/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/gallery/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/gallery/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/gallery/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/gallery/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/gallery/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/gallery/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1479,56 +879,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Full width mega menu",
         "slug": "16-full-width-mega-menu",
         "path": "components/headers/examples/16-full-width-mega-menu/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/headers/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/headers/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/headers/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/headers/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/headers/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/headers/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/headers/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/headers/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/headers/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/headers/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1590,56 +940,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Feedback Widget",
         "slug": "10-feedback-widget",
         "path": "components/modals/examples/10-feedback-widget/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/modals/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/modals/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/modals/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/modals/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/modals/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/modals/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/modals/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/modals/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/modals/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/modals/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1711,56 +1011,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Dark gradient pricing",
         "slug": "13-dark-gradient-pricing",
         "path": "components/pricing/examples/13-dark-gradient-pricing/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/pricing/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/pricing/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/pricing/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/pricing/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/pricing/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/pricing/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/pricing/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/pricing/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/pricing/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/pricing/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1817,56 +1067,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Hover Cards",
         "slug": "10-hover-cards",
         "path": "components/process/examples/10-hover-cards/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/process/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/process/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/process/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/process/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/process/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/process/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/process/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/process/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/process/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/process/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -1923,56 +1123,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Service Packages",
         "slug": "10-service-packages",
         "path": "components/services/examples/10-service-packages/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/services/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/services/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/services/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/services/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/services/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/services/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/services/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/services/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/services/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/services/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -2029,56 +1179,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Yearly Growth",
         "slug": "10-yearly-growth",
         "path": "components/stats/examples/10-yearly-growth/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/stats/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/stats/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/stats/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/stats/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/stats/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/stats/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/stats/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/stats/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/stats/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/stats/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -2135,56 +1235,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Glass Flip (UI)",
         "slug": "10-glass-flip-ui",
         "path": "components/team/examples/10-glass-flip-ui/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/team/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/team/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/team/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/team/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/team/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/team/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/team/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/team/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/team/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/team/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -2231,56 +1281,6 @@ window.COMPONENTS_MANIFEST = [
         "title": "Case study highlight",
         "slug": "08-case-study-highlight",
         "path": "components/testimonials/examples/08-case-study-highlight/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/testimonials/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/testimonials/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/testimonials/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/testimonials/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/testimonials/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/testimonials/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/testimonials/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/testimonials/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/testimonials/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/testimonials/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   },
@@ -2337,57 +1337,7 @@ window.COMPONENTS_MANIFEST = [
         "title": "Status Table",
         "slug": "10-status-table",
         "path": "components/timelines/examples/10-status-table/index.html"
-      },
-      {
-        "title": "Premium Editorial Split",
-        "slug": "11-premium-editorial-split",
-        "path": "components/timelines/examples/11-premium-editorial-split/index.html"
-      },
-      {
-        "title": "Aurora Gradient Showcase",
-        "slug": "12-aurora-gradient-showcase",
-        "path": "components/timelines/examples/12-aurora-gradient-showcase/index.html"
-      },
-      {
-        "title": "Conversion-Focused Stack",
-        "slug": "13-conversion-focused-stack",
-        "path": "components/timelines/examples/13-conversion-focused-stack/index.html"
-      },
-      {
-        "title": "Luxury Dark Panorama",
-        "slug": "14-luxury-dark-panorama",
-        "path": "components/timelines/examples/14-luxury-dark-panorama/index.html"
-      },
-      {
-        "title": "Adaptive Bento Mosaic",
-        "slug": "15-adaptive-bento-mosaic",
-        "path": "components/timelines/examples/15-adaptive-bento-mosaic/index.html"
-      },
-      {
-        "title": "Minimal Contrast Deck",
-        "slug": "16-minimal-contrast-deck",
-        "path": "components/timelines/examples/16-minimal-contrast-deck/index.html"
-      },
-      {
-        "title": "Interactive Spotlight Rail",
-        "slug": "17-interactive-spotlight-rail",
-        "path": "components/timelines/examples/17-interactive-spotlight-rail/index.html"
-      },
-      {
-        "title": "Immersive Story Blocks",
-        "slug": "18-immersive-story-blocks",
-        "path": "components/timelines/examples/18-immersive-story-blocks/index.html"
-      },
-      {
-        "title": "Data-Driven Feature Grid",
-        "slug": "19-data-driven-feature-grid",
-        "path": "components/timelines/examples/19-data-driven-feature-grid/index.html"
-      },
-      {
-        "title": "Cinematic Scroll Layout",
-        "slug": "20-cinematic-scroll-layout",
-        "path": "components/timelines/examples/20-cinematic-scroll-layout/index.html"
       }
     ]
   }
-]
+];
