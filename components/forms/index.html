@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium Forms — Premium Blocks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner page-shell">
+      <a class="logo" href="../index.html"><span>✦</span><span>Premium Forms</span></a>
+      <nav class="nav">
+        <a href="#examples">Examples</a>
+        <a href="#usage">Usage</a>
+      </nav>
+      <button class="theme-btn" data-theme-toggle>Theme</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro reveal">
+      <span class="kicker">Premium conversion & feedback forms</span>
+      <h1>Premium Forms<br>layout collection.</h1>
+      <p>10 вариантов форм: от минималистичных подписок до сложных форм заказа и многошаговых интерфейсов.</p>
+    </section>
+
+    <section id="examples" class="grid">
+      
+      <!-- 01: Minimalist Contact -->
+      <article class="block reveal" id="form-01">
+        <div class="block__label"><span>Example 01</span><span>Minimalist Contact</span></div>
+        <div class="demo">
+          <form class="f-min">
+            <div class="f-group">
+              <label>Name</label>
+              <input type="text" placeholder="John Doe">
+            </div>
+            <div class="f-group">
+              <label>Email</label>
+              <input type="email" placeholder="john@example.com">
+            </div>
+            <div class="f-group">
+              <label>Message</label>
+              <textarea placeholder="How can we help?"></textarea>
+            </div>
+            <button type="button" class="btn-f">Send Message</button>
+          </form>
+        </div>
+      </article>
+
+      <!-- 02: Newsletter Glass -->
+      <article class="block reveal" id="form-02">
+        <div class="block__label"><span>Example 02</span><span>Newsletter Glass</span></div>
+        <div class="demo" style="background: linear-gradient(135deg, #1e3a8a, #581c87); padding: 60px 40px; border-radius: 20px;">
+          <div class="f-newsletter-glass">
+            <h3>Stay in the loop</h3>
+            <p>Get the latest updates directly in your inbox.</p>
+            <div class="f-inline">
+              <input type="email" placeholder="Your email address">
+              <button type="button" class="btn-f-glass">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03: Floating Labels -->
+      <article class="block reveal" id="form-03">
+        <div class="block__label"><span>Example 03</span><span>Floating Labels</span></div>
+        <div class="demo">
+          <div class="f-floating">
+            <div class="f-field">
+              <input type="text" id="name" placeholder=" ">
+              <label for="name">Full Name</label>
+            </div>
+            <div class="f-field">
+              <input type="email" id="email" placeholder=" ">
+              <label for="email">Email Address</label>
+            </div>
+            <button type="button" class="btn-f-dark">Submit Request</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- 04: Dark Booking Form -->
+      <article class="block reveal" id="form-04">
+        <div class="block__label"><span>Example 04</span><span>Dark Booking</span></div>
+        <div class="demo" style="background: #000; padding: 40px; border-radius: 20px;">
+          <form class="f-dark">
+            <div class="f-row">
+              <div class="f-group">
+                <label>Arrival</label>
+                <input type="date">
+              </div>
+              <div class="f-group">
+                <label>Guests</label>
+                <select>
+                  <option>1 Person</option>
+                  <option>2 Persons</option>
+                  <option>3+ Persons</option>
+                </select>
+              </div>
+            </div>
+            <button type="button" class="btn-f-accent">Check Availability</button>
+          </form>
+        </div>
+      </article>
+
+      <!-- 05: Modern Stepper (Visual Only) -->
+      <article class="block reveal" id="form-05">
+        <div class="block__label"><span>Example 05</span><span>Multi-Step Progress</span></div>
+        <div class="demo">
+          <div class="f-stepper">
+            <div class="steps-nav">
+              <div class="step active">1</div>
+              <div class="step">2</div>
+              <div class="step">3</div>
+            </div>
+            <div class="step-content">
+              <h3>Personal Info</h3>
+              <p>Step 1 of 3</p>
+              <div class="f-min">
+                <input type="text" placeholder="Phone Number">
+                <button type="button" class="btn-f">Next Step</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 06: Centered Feedback -->
+      <article class="block reveal" id="form-06">
+        <div class="block__label"><span>Example 06</span><span>Centered Feedback</span></div>
+        <div class="demo">
+          <div class="f-feedback">
+            <h3>How are we doing?</h3>
+            <div class="f-rating">
+              <span>😞</span><span>😐</span><span>😊</span><span>😍</span>
+            </div>
+            <textarea placeholder="Tell us more..."></textarea>
+            <button type="button" class="btn-f outline">Submit Feedback</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- 07: Split Form (Image + Form) -->
+      <article class="block reveal" id="form-07">
+        <div class="block__label"><span>Example 07</span><span>Split Layout</span></div>
+        <div class="demo" style="padding: 0;">
+          <div class="f-split">
+            <div class="f-split-img" style="background-image: url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=400&q=80')"></div>
+            <div class="f-split-content">
+              <h4>Get a Quote</h4>
+              <input type="text" placeholder="Company Name">
+              <input type="email" placeholder="Work Email">
+              <button type="button" class="btn-f-dark">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 08: Neo-Brutalism Form -->
+      <article class="block reveal" id="form-08">
+        <div class="block__label"><span>Example 08</span><span>Neo-Brutalist Form</span></div>
+        <div class="demo">
+          <div class="f-brutalist">
+            <h3>JOIN THE SQUAD</h3>
+            <input type="text" placeholder="USERNAME">
+            <input type="password" placeholder="PASSWORD">
+            <button type="button">SIGN UP NOW</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- 09: Underlined Inputs -->
+      <article class="block reveal" id="form-09">
+        <div class="block__label"><span>Example 09</span><span>Underlined Style</span></div>
+        <div class="demo">
+          <form class="f-underline">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <button type="button" class="btn-f-text">Send Message <span>→</span></button>
+          </form>
+        </div>
+      </article>
+
+      <!-- 10: Toggle Selection Form -->
+      <article class="block reveal" id="form-10">
+        <div class="block__label"><span>Example 10</span><span>Toggle Selectors</span></div>
+        <div class="demo">
+          <div class="f-toggle">
+            <h4>Select Project Type</h4>
+            <div class="t-options">
+              <label class="t-item"><input type="checkbox" name="type" checked><span>UI Design</span></label>
+              <label class="t-item"><input type="checkbox" name="type"><span>Development</span></label>
+              <label class="t-item"><input type="checkbox" name="type"><span>Branding</span></label>
+            </div>
+            <button type="button" class="btn-f-dark" style="margin-top: 20px;">Continue</button>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section id="usage" class="footer-note">
+      Premium Forms Library. Stylish and high-converting form layouts for your projects.
+    </section>
+  </main>
+
+  <script src="../shared-script-basic.js"></script>
+</body>
+</html>

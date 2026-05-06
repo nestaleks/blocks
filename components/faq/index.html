@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium FAQ — Premium Blocks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner page-shell">
+      <a class="logo" href="../index.html"><span>✦</span><span>Premium FAQ</span></a>
+      <nav class="nav">
+        <a href="#examples">Examples</a>
+        <a href="#usage">Usage</a>
+      </nav>
+      <button class="theme-btn" data-theme-toggle>◑</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro reveal">
+      <span class="kicker">Premium Questions & Answers Layouts</span>
+      <h1>Premium FAQ<br>collection.</h1>
+      <p>10 вариантов блоков вопросов и ответов: от классических аккордеонов до современных Bento-сеток и Glassmorphism панелей.</p>
+    </section>
+
+    <section id="examples" class="grid">
+      
+      <!-- 01: Classic Accordion -->
+      <article class="block reveal" id="faq-01">
+        <div class="block__label"><span>Example 01</span><span>Classic Accordion</span></div>
+        <div class="demo">
+          <div class="faq-accordion">
+            <div class="faq-item active">
+              <button class="faq-trigger">What is included in the premium plan? <span class="faq-icon"></span></button>
+              <div class="faq-content">
+                <p>Our premium plan includes all advanced features, priority support, and unlimited projects for your entire team.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-trigger">Can I cancel my subscription anytime? <span class="faq-icon"></span></button>
+              <div class="faq-content">
+                <p>Yes, you can cancel your subscription at any time from your account settings without any hidden fees.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 02: Bento FAQ -->
+      <article class="block reveal" id="faq-02">
+        <div class="block__label"><span>Example 02</span><span>Bento Grid FAQ</span></div>
+        <div class="demo">
+          <div class="faq-bento">
+            <div class="faq-b-card">
+              <h3>Pricing</h3>
+              <p>Transparent pricing for teams of all sizes. No hidden costs.</p>
+            </div>
+            <div class="faq-b-card">
+              <h3>Security</h3>
+              <p>Enterprise-grade security with 256-bit encryption and SOC2 compliance.</p>
+            </div>
+            <div class="faq-b-card main">
+              <h3>Support</h3>
+              <p>24/7 dedicated support via chat, email and phone for all premium members.</p>
+            </div>
+            <div class="faq-b-card">
+              <h3>Integration</h3>
+              <p>Connect with 100+ tools including Slack, Jira, and GitHub.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03: Minimalist List -->
+      <article class="block reveal" id="faq-03">
+        <div class="block__label"><span>Example 03</span><span>Minimalist List</span></div>
+        <div class="demo">
+          <div class="faq-minimal">
+            <div class="faq-m-item">
+              <h4>How do I get started?</h4>
+              <p>Simply sign up for a free trial and follow our onboarding guide to set up your first workspace.</p>
+            </div>
+            <div class="faq-m-item">
+              <h4>Is there a mobile app?</h4>
+              <p>Yes, our mobile app is available for both iOS and Android devices in their respective app stores.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 04: Two Column Grid -->
+      <article class="block reveal" id="faq-04">
+        <div class="block__label"><span>Example 04</span><span>Two Column Grid</span></div>
+        <div class="demo">
+          <div class="faq-grid">
+            <div class="faq-g-item">
+              <h5>Billing</h5>
+              <p>We accept all major credit cards, PayPal, and bank transfers for annual plans.</p>
+            </div>
+            <div class="faq-g-item">
+              <h5>Customization</h5>
+              <p>You can fully customize the look and feel of your dashboard with themes and custom CSS.</p>
+            </div>
+            <div class="faq-g-item">
+              <h5>Account</h5>
+              <p>Managing your team is easy with our built-in user management system.</p>
+            </div>
+            <div class="faq-g-item">
+              <h5>Updates</h5>
+              <p>We release new features and improvements every two weeks based on user feedback.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05: Glassmorphic FAQ -->
+      <article class="block reveal" id="faq-05">
+        <div class="block__label"><span>Example 05</span><span>Glassmorphic Panel</span></div>
+        <div class="demo" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 60px 40px; border-radius: 20px;">
+          <div class="faq-glass">
+            <div class="faq-g-card">
+              <div class="faq-g-header">Is it easy to migrate?</div>
+              <div class="faq-g-body">Our migration tool handles everything automatically from most popular platforms.</div>
+            </div>
+            <div class="faq-g-card">
+              <div class="faq-g-header">Do you offer discounts?</div>
+              <div class="faq-g-body">Yes, we offer 20% discount for non-profits and educational institutions.</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 06: Searchable FAQ (UI Only) -->
+      <article class="block reveal" id="faq-06">
+        <div class="block__label"><span>Example 06</span><span>Search Interface</span></div>
+        <div class="demo">
+          <div class="faq-search-ui">
+            <div class="search-box">
+              <input type="text" placeholder="Search for answers...">
+              <button>Search</button>
+            </div>
+            <div class="quick-tags">
+              <span>Setup</span><span>Billing</span><span>Team</span><span>Security</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 07: Bordered Clean -->
+      <article class="block reveal" id="faq-07">
+        <div class="block__label"><span>Example 07</span><span>Bordered Items</span></div>
+        <div class="demo">
+          <div class="faq-bordered">
+            <div class="faq-br-item">
+              <div class="faq-br-q">Can I export my data?</div>
+              <div class="faq-br-a">Of course! You can export all your data in JSON or CSV format at any time.</div>
+            </div>
+            <div class="faq-br-item">
+              <div class="faq-br-q">How many users can I add?</div>
+              <div class="faq-br-a">The starter plan allows up to 5 users. Pro and Enterprise have no limits.</div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 08: Sidebar FAQ -->
+      <article class="block reveal" id="faq-08">
+        <div class="block__label"><span>Example 08</span><span>Sidebar Layout</span></div>
+        <div class="demo">
+          <div class="faq-sidebar-layout">
+            <aside class="faq-aside">
+              <nav>
+                <a href="#" class="active">General</a>
+                <a href="#">Payments</a>
+                <a href="#">Technical</a>
+              </nav>
+            </aside>
+            <div class="faq-main-content">
+              <h3>General Questions</h3>
+              <p>Everything you need to know about the product and billing.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 09: Boxed with Icons -->
+      <article class="block reveal" id="faq-09">
+        <div class="block__label"><span>Example 09</span><span>Boxed with Icons</span></div>
+        <div class="demo">
+          <div class="faq-icons-grid">
+            <div class="faq-i-box">
+              <div class="faq-i-icon">⚡</div>
+              <h4>Fast setup</h4>
+              <p>Get up and running in less than 5 minutes.</p>
+            </div>
+            <div class="faq-i-box">
+              <div class="faq-i-icon">🛡️</div>
+              <h4>Secure</h4>
+              <p>Your data is protected by best-in-class security.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 10: Step-by-Step FAQ -->
+      <article class="block reveal" id="faq-10">
+        <div class="block__label"><span>Example 10</span><span>Step-by-Step Guide</span></div>
+        <div class="demo">
+          <div class="faq-steps">
+            <div class="faq-step">
+              <span class="step-num">01</span>
+              <div>
+                <h5>Create an account</h5>
+                <p>Register using your email or social accounts.</p>
+              </div>
+            </div>
+            <div class="faq-step">
+              <span class="step-num">02</span>
+              <div>
+                <h5>Choose a template</h5>
+                <p>Select from 50+ professionally designed templates.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section id="usage" class="intro reveal">
+      <h2>How to use</h2>
+      <p>Копируйте HTML структуру и соответствующие стили из файла style.css. Для аккордеонов (Example 01) необходимо подключить script.js для обработки кликов.</p>
+    </section>
+  </main>
+
+  <footer class="gallery-footer">
+    <div class="page-shell">
+      <p>Premium Blocks Library — FAQ Collection</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plum Pewter - Colors</title>
+  <style>
+    body { margin: 0; font-family: 'Noto Sans', system-ui, sans-serif; background: #0f1115; color: #f3f4f6; }
+    .bar { position: sticky; top: 0; z-index: 20; display: flex; gap: 8px; align-items: center; justify-content: space-between; padding: 12px 16px; background: #161a22; border-bottom: 1px solid #2b3240; }
+    .meta { font-size: 14px; opacity: .92; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn { border: 1px solid #3b4454; background: #222938; color: #f9fafb; border-radius: 8px; padding: 8px 12px; font-size: 13px; cursor: pointer; text-decoration:none; }
+    iframe { width: 100%; height: calc(100vh - 62px); border: 0; display: block; background: #fff; }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <div class="meta">Colors / Plum Pewter</div>
+    <div class="actions">
+      <button class="btn" data-copy="html">Copy HTML</button>
+      <button class="btn" data-copy="css">Copy CSS</button>
+      <button class="btn" data-copy="js">Copy JS</button>
+      <a class="btn" href="./preview.html" target="_blank" rel="noopener noreferrer">Open Preview</a>
+    </div>
+  </div>
+  <iframe src="./preview.html" title="preview"></iframe>
+  <script>
+    const FILES = {"html":"<section class=\"palette\">\n  <div class=\"header\">\n    <div>\n      <h1 class=\"title\">Plum Pewter</h1>\n      <p class=\"meta\">Professional services</p>\n    </div>\n    <button class=\"cta\" type=\"button\" id=\"copyPalette\">Copy Palette</button>\n  </div>\n\n  <div class=\"grid\">\n      <button class=\"swatch\" type=\"button\" data-color=\"#31263E\">\n        <div class=\"swatch-top\" style=\"background:#31263E\"></div>\n        <div class=\"swatch-code\">#31263E</div>\n      </button>\n      <button class=\"swatch\" type=\"button\" data-color=\"#443850\">\n        <div class=\"swatch-top\" style=\"background:#443850\"></div>\n        <div class=\"swatch-code\">#443850</div>\n      </button>\n      <button class=\"swatch\" type=\"button\" data-color=\"#A7A5C6\">\n        <div class=\"swatch-top\" style=\"background:#A7A5C6\"></div>\n        <div class=\"swatch-code\">#A7A5C6</div>\n      </button>\n      <button class=\"swatch\" type=\"button\" data-color=\"#D9D8E8\">\n        <div class=\"swatch-top\" style=\"background:#D9D8E8\"></div>\n        <div class=\"swatch-code\">#D9D8E8</div>\n      </button>\n      <button class=\"swatch\" type=\"button\" data-color=\"#F7F7FB\">\n        <div class=\"swatch-top\" style=\"background:#F7F7FB\"></div>\n        <div class=\"swatch-code\">#F7F7FB</div>\n      </button>\n  </div>\n\n  <div class=\"demo\">\n    <div class=\"nav\">\n      <div class=\"brand\">Premium Business</div>\n      <button class=\"cta\" type=\"button\">Book a demo</button>\n    </div>\n    <div class=\"hero\">\n      <h2>Premium corporate design system</h2>\n      <p>Use this palette as a base for navigation, surfaces, typography and CTA hierarchy in a premium business website.</p>\n    </div>\n    <div class=\"cards\">\n      <article class=\"card\"><span class=\"badge\">Primary</span><h3>Brand authority</h3><p>Dark core tone for navigation and trust-heavy sections.</p></article>\n      <article class=\"card\"><span class=\"badge\">Accent</span><h3>Call to action</h3><p>Accent tone for buttons, highlights and chart focus points.</p></article>\n      <article class=\"card\"><span class=\"badge\">Surface</span><h3>Readable layouts</h3><p>Light neutral balance for content, cards and long-form pages.</p></article>\n    </div>\n  </div>\n  <p class=\"hint\">Tip: click any swatch to copy a single HEX value.</p>\n</section>\n","css":":root {\n  --c1: #31263E;\n  --c2: #443850;\n  --c3: #A7A5C6;\n  --c4: #D9D8E8;\n  --c5: #F7F7FB;\n}\n* { box-sizing: border-box; }\nbody {\n  margin: 0;\n  font-family: 'Noto Sans', system-ui, sans-serif;\n  background: var(--c5);\n  color: var(--c1);\n}\n.palette {\n  min-height: 100vh;\n  padding: 28px;\n  background: linear-gradient(160deg, var(--c5), #ffffff);\n}\n.header {\n  display: flex;\n  align-items: start;\n  justify-content: space-between;\n  gap: 16px;\n  margin-bottom: 22px;\n}\n.title {\n  margin: 0;\n  font-size: 30px;\n  line-height: 1.1;\n}\n.meta {\n  margin: 6px 0 0;\n  color: var(--c2);\n  font-size: 14px;\n}\n.grid {\n  display: grid;\n  grid-template-columns: repeat(5, 1fr);\n  gap: 10px;\n  margin-bottom: 20px;\n}\n.swatch {\n  border: 1px solid #00000014;\n  border-radius: 12px;\n  overflow: hidden;\n  background: #fff;\n  cursor: pointer;\n}\n.swatch-top {\n  height: 92px;\n}\n.swatch-code {\n  padding: 8px 10px;\n  font-weight: 700;\n  font-size: 12px;\n}\n.demo {\n  margin-top: 10px;\n  border: 1px solid #00000012;\n  border-radius: 14px;\n  overflow: hidden;\n  background: #fff;\n}\n.nav {\n  height: 58px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 0 16px;\n  background: var(--c1);\n  color: #fff;\n}\n.brand { font-weight: 800; letter-spacing: .02em; }\n.cta {\n  border: 0;\n  border-radius: 10px;\n  padding: 8px 12px;\n  background: var(--c3);\n  color: #fff;\n  font-weight: 700;\n}\n.hero {\n  padding: 22px 16px;\n  background: var(--c5);\n}\n.hero h2 { margin: 0 0 8px; font-size: 24px; color: var(--c1); }\n.hero p { margin: 0; color: var(--c2); max-width: 640px; }\n.cards {\n  padding: 0 16px 18px;\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 12px;\n}\n.card {\n  border: 1px solid #00000010;\n  border-radius: 12px;\n  padding: 14px;\n  background: #fff;\n}\n.badge {\n  display: inline-block;\n  font-size: 11px;\n  font-weight: 700;\n  border-radius: 999px;\n  padding: 4px 8px;\n  background: var(--c4);\n  color: var(--c1);\n  margin-bottom: 8px;\n}\n.card h3 { margin: 0 0 8px; font-size: 16px; color: var(--c1); }\n.card p { margin: 0; font-size: 13px; color: var(--c2); }\n.hint {\n  margin-top: 12px;\n  font-size: 13px;\n  color: var(--c2);\n}\n@media (max-width: 900px) {\n  .grid { grid-template-columns: repeat(2, 1fr); }\n  .cards { grid-template-columns: 1fr; }\n}\n","js":"const palette = [\"#31263E\",\"#443850\",\"#A7A5C6\",\"#D9D8E8\",\"#F7F7FB\"];\n\nasync function copyText(value) {\n  try {\n    await navigator.clipboard.writeText(value);\n  } catch (_) {}\n}\n\ndocument.querySelectorAll('[data-color]').forEach((btn) => {\n  btn.addEventListener('click', async () => {\n    const value = btn.getAttribute('data-color');\n    await copyText(value);\n    const label = btn.querySelector('.swatch-code');\n    const original = label.textContent;\n    label.textContent = 'Copied';\n    setTimeout(() => { label.textContent = original; }, 700);\n  });\n});\n\nconst copyPaletteBtn = document.getElementById('copyPalette');\nif (copyPaletteBtn) {\n  copyPaletteBtn.addEventListener('click', async () => {\n    await copyText(palette.join(', '));\n    const t = copyPaletteBtn.textContent;\n    copyPaletteBtn.textContent = 'Copied';\n    setTimeout(() => { copyPaletteBtn.textContent = t; }, 700);\n  });\n}\n"};
+    document.querySelectorAll('[data-copy]').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const type = btn.getAttribute('data-copy');
+        await navigator.clipboard.writeText(FILES[type] || '');
+        const original = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(() => { btn.textContent = original; }, 1000);
+      });
+    });
+  </script>
+</body>
+</html>

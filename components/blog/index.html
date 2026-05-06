@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium Blog — Premium Blocks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner page-shell">
+      <a class="logo" href="../index.html"><span>✦</span><span>Premium Blog</span></a>
+      <nav class="nav">
+        <a href="#examples">Examples</a>
+        <a href="#usage">Usage</a>
+      </nav>
+      <button class="theme-btn" data-theme-toggle>◑</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro reveal">
+      <span class="kicker">Premium Article & News Layouts</span>
+      <h1>Premium Blog<br>collection.</h1>
+      <p>10 вариантов блоков блога: от современных Bento-сеток и Masonry-раскладок до акцентных карточек и минималистичных списков новостей.</p>
+    </section>
+
+    <section id="examples" class="grid">
+      
+      <!-- 01: Standard Grid -->
+      <article class="block reveal" id="blog-01">
+        <div class="block__label"><span>Example 01</span><span>Standard Grid</span></div>
+        <div class="demo">
+          <div class="blog-grid">
+            <div class="blog-card">
+              <div class="blog-img"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt=""></div>
+              <div class="blog-content">
+                <span class="category">Development</span>
+                <h4>Modern Web Architectures</h4>
+                <p>Learn how to build scalable apps with the latest technologies.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div class="blog-img"><img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" alt=""></div>
+              <div class="blog-content">
+                <span class="category">Design</span>
+                <h4>The Future of UI Design</h4>
+                <p>Exploring the trends that will shape our digital interfaces.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 02: Bento Blog -->
+      <article class="block reveal" id="blog-02">
+        <div class="block__label"><span>Example 02</span><span>Bento Layout</span></div>
+        <div class="demo">
+          <div class="blog-bento">
+            <div class="blog-b-card main">
+              <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&h=600&fit=crop" alt="">
+              <div class="blog-b-overlay">
+                <span class="badge">Featured</span>
+                <h3>Transforming Industries with AI</h3>
+                <p>Deep dive into the world of artificial intelligence and its impact on businesses.</p>
+              </div>
+            </div>
+            <div class="blog-b-card">
+              <div class="blog-b-content">
+                <span class="category">News</span>
+                <h4>New Funding Round</h4>
+                <p>We raised $50M to accelerate our growth.</p>
+              </div>
+            </div>
+            <div class="blog-b-card">
+              <div class="blog-b-content">
+                <span class="category">Product</span>
+                <h4>v2.0 is Here</h4>
+                <p>Check out the latest features in our biggest update.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 03: Minimal List -->
+      <article class="block reveal" id="blog-03">
+        <div class="block__label"><span>Example 03</span><span>Minimalist List</span></div>
+        <div class="demo">
+          <div class="blog-list">
+            <div class="blog-l-item">
+              <span class="date">May 12, 2024</span>
+              <div class="l-info">
+                <h4>Mastering the Art of Remote Work</h4>
+                <p>Practical tips for staying productive while working from home.</p>
+              </div>
+              <a href="#" class="arrow">→</a>
+            </div>
+            <div class="blog-l-item">
+              <span class="date">May 10, 2024</span>
+              <div class="l-info">
+                <h4>Top 10 Tools for Developers</h4>
+                <p>Our curated list of software to boost your workflow.</p>
+              </div>
+              <a href="#" class="arrow">→</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 04: Large Featured -->
+      <article class="block reveal" id="blog-04">
+        <div class="block__label"><span>Example 04</span><span>Featured Post</span></div>
+        <div class="demo">
+          <div class="blog-featured">
+            <div class="feat-img"><img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=600&fit=crop" alt=""></div>
+            <div class="feat-info">
+              <span class="category">Strategy</span>
+              <h2>Building a Sustainable Startup from Scratch</h2>
+              <p>Everything you need to know about starting and growing a business in 2024.</p>
+              <div class="author">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&h=50&fit=crop" alt="">
+                <span>By Alex Johnson</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05: Glass Cards -->
+      <article class="block reveal" id="blog-05">
+        <div class="block__label"><span>Example 05</span><span>Glassmorphic Cards</span></div>
+        <div class="demo" style="background:linear-gradient(45deg, #0f0c29, #302b63, #24243e); padding:60px 20px; border-radius:20px;">
+          <div class="blog-glass">
+            <div class="blog-g-card">
+              <span class="g-date">24 Mar</span>
+              <h4>Cybersecurity in 2024</h4>
+              <p>How to protect your data in an increasingly connected world.</p>
+            </div>
+            <div class="blog-g-card">
+              <span class="g-date">22 Mar</span>
+              <h4>Blockchain Beyond Crypto</h4>
+              <p>Real-world applications of decentralized ledger technology.</p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 06: Dark Brutalist -->
+      <article class="block reveal" id="blog-06">
+        <div class="block__label"><span>Example 06</span><span>Brutalist News</span></div>
+        <div class="demo" style="background:#000; padding:40px; border-radius:20px;">
+          <div class="blog-brutal">
+            <div class="blog-br-card">
+              <div class="br-header">BREAKING NEWS</div>
+              <div class="br-body">
+                <h3>NEW VERSION RELEASED</h3>
+                <p>Download the latest update now for 50% faster performance.</p>
+                <a href="#">GO TO DOWNLOAD →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 07: Masonry (Simple UI) -->
+      <article class="block reveal" id="blog-07">
+        <div class="block__label"><span>Example 07</span><span>Masonry Grid</span></div>
+        <div class="demo">
+          <div class="blog-masonry">
+            <div class="masonry-item"><img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=300&h=400&fit=crop" alt=""><h4>Tech Trends</h4></div>
+            <div class="masonry-item"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300&h=300&fit=crop" alt=""><h4>Productivity</h4></div>
+            <div class="masonry-item"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=300&h=500&fit=crop" alt=""><h4>Innovation</h4></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 08: Horizontal Scroller (UI) -->
+      <article class="block reveal" id="blog-08">
+        <div class="block__label"><span>Example 08</span><span>Horizontal Feed</span></div>
+        <div class="demo">
+          <div class="blog-scroll">
+            <div class="scroll-card">
+              <span class="badge">Ebook</span>
+              <h4>The Guide to UX</h4>
+            </div>
+            <div class="scroll-card">
+              <span class="badge">Tutorial</span>
+              <h4>Learn React</h4>
+            </div>
+            <div class="scroll-card">
+              <span class="badge">Freebie</span>
+              <h4>Icons Pack</h4>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 09: Image-Only Grid -->
+      <article class="block reveal" id="blog-09">
+        <div class="block__label"><span>Example 09</span><span>Image Gallery Feed</span></div>
+        <div class="demo">
+          <div class="blog-img-grid">
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&h=300&fit=crop" alt=""><div class="overlay">Web</div></div>
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=300&h=300&fit=crop" alt=""><div class="overlay">Team</div></div>
+            <div class="img-box"><img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=300&h=300&fit=crop" alt=""><div class="overlay">Code</div></div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 10: Interaction Cards -->
+      <article class="block reveal" id="blog-10">
+        <div class="block__label"><span>Example 10</span><span>Hover Expand</span></div>
+        <div class="demo">
+          <div class="blog-expand">
+            <div class="expand-item active">
+              <div class="expand-bg" style="background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&fit=crop');"></div>
+              <h3>Explore Space</h3>
+            </div>
+            <div class="expand-item">
+              <div class="expand-bg" style="background-image:url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=800&fit=crop');"></div>
+              <h3>AI Coding</h3>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <section id="usage" class="intro reveal">
+      <h2>How to use</h2>
+      <p>Копируйте HTML структуру и стили. Для интерактивных эффектов (Example 10) используется JS в script.js.</p>
+    </section>
+  </main>
+
+  <footer class="gallery-footer">
+    <div class="page-shell">
+      <p>Premium Blocks Library — Blog Collection</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
